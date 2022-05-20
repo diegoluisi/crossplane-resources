@@ -11,18 +11,18 @@ spec:
       name: development
     mapPublicIPOnLaunch: true
     tags:
-    - key: Environment
-      value: development
-    - key: Owner
-      value: SRE
-    - key: Name
-      value: subnet-public-1a
-    - key: crossplane-kind
-      value: subnet.ec2.aws.crossplane.io
-    - key: crossplane-name		
-      value: subnet-public-1a		
-    - key: crossplane-providerconfig		
-      value: default      
+      - key: Environment
+        value: development
+      - key: Team
+        value: SRE
+      - key: Name
+        value: subnet-public-1a
+      - key: crossplane-kind
+        value: subnet.ec2.aws.crossplane.io
+      - key: crossplane-name
+        value: subnet-public-1a
+      - key: crossplane-providerconfig
+        value: default
   providerConfigRef:
     name: default
 ---
@@ -39,17 +39,17 @@ spec:
       name: development
     mapPublicIPOnLaunch: true
     tags:
-    - key: Environment
-      value: Live
-    - key: Owner
-      value: SRE
-    - key: Name
-      value: subnet-private-1a
-    - key: crossplane-kind
-      value: subnet.ec2.aws.crossplane.io
-    - key: crossplane-name		
-      value: subnet-private-1a		
-    - key: crossplane-providerconfig		
-      value: default      
+      - key: Environment
+        value: Live
+      - key: Team
+        value: SRE
+      - key: Name
+        value: subnet-private-1a
+      - key: crossplane-kind
+        value: subnet.ec2.aws.crossplane.io
+      - key: crossplane-name
+        value: subnet-private-1a
+      - key: crossplane-providerconfig
+        value: default
   providerConfigRef:
     name: default
