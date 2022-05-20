@@ -21,6 +21,6 @@ spec:
     - key: crossplane-name
       value: development
     - key: crossplane-providerconfig		
-      value: default
+      value: default     
   providerConfigRef:
     name: default

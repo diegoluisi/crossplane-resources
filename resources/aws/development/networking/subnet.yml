@@ -18,7 +18,11 @@ spec:
     - key: Name
       value: subnet-public-1a
     - key: crossplane-kind
-      value: subnet.ec2.aws.crossplane.io      
+      value: subnet.ec2.aws.crossplane.io
+    - key: crossplane-name		
+      value: subnet-public-1a		
+    - key: crossplane-providerconfig		
+      value: default      
   providerConfigRef:
     name: default
 ---
@@ -43,5 +47,9 @@ spec:
       value: subnet-private-1a
     - key: crossplane-kind
       value: subnet.ec2.aws.crossplane.io
+    - key: crossplane-name		
+      value: subnet-private-1a		
+    - key: crossplane-providerconfig		
+      value: default      
   providerConfigRef:
     name: default
