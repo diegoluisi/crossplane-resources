@@ -10,17 +10,15 @@ spec:
     enableDnsHostNames: true
     instanceTenancy: default
     tags:
-    - key: Environment
-      value: development
-    - key: Team
-      value: SRE
-    - key: Name
-      value: development
-    - key: crossplane-kind		
-      value: vpc.ec2.aws.crossplane.io
-    - key: crossplane-name
-      value: development
-    - key: crossplane-providerconfig		
-      value: default     
+      - key: Environment
+        value: development
+      - key: Name
+        value: development
+      - key: crossplane-kind
+        value: vpc.ec2.aws.crossplane.io
+      - key: crossplane-name
+        value: development
+      - key: crossplane-providerconfig
+        value: default
   providerConfigRef:
     name: default

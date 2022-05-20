@@ -13,8 +13,6 @@ spec:
     tags:
       - key: Environment
         value: development
-      - key: Team
-        value: SRE
       - key: Name
         value: subnet-public-1a
       - key: crossplane-kind
@@ -40,9 +38,7 @@ spec:
     mapPublicIPOnLaunch: true
     tags:
       - key: Environment
-        value: Live
-      - key: Team
-        value: SRE
+        value: development
       - key: Name
         value: subnet-private-1a
       - key: crossplane-kind
