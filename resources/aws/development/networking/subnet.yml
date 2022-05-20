@@ -17,6 +17,8 @@ spec:
       value: SRE
     - key: Name
       value: subnet-public-1a
+    - key: crossplane-kind
+      value: subnet.ec2.aws.crossplane.io      
   providerConfigRef:
     name: default
 ---
@@ -39,5 +41,7 @@ spec:
       value: SRE
     - key: Name
       value: subnet-private-1a
+    - key: crossplane-kind
+      value: subnet.ec2.aws.crossplane.io
   providerConfigRef:
     name: default
