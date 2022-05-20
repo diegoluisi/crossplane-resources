@@ -1,0 +1,21 @@
+apiVersion: ec2.aws.crossplane.io/v1beta1
+kind: VPC
+metadata:
+  name: development
+spec:
+  forProvider:
+    region: us-east-1
+    cidrBlock: 172.32.0.0/16
+    enableDnsSupport: true
+    enableDnsHostNames: true
+    instanceTenancy: default
+    tags:
+    - key: Environment
+      value: development
+    - key: Owner
+      value: SRE
+    - key: Name
+      value: development
+  providerConfigRef:
+    name: default
+
