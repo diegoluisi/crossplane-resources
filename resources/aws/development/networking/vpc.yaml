@@ -12,8 +12,8 @@ spec:
     tags:
     - key: Environment
       value: development
-    - key: Owner
-      value: SRE
+    #- key: Owner
+    #  value: SRE
     - key: Name
       value: development
     - key: crossplane-kind		
