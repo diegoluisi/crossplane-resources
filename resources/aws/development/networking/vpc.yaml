@@ -19,6 +19,8 @@ spec:
     - key: crossplane-kind		
       value: vpc.ec2.aws.crossplane.io
     - key: crossplane-name
-      value: development   
+      value: development
+    - key: crossplane-providerconfig		
+      value: default
   providerConfigRef:
     name: default
