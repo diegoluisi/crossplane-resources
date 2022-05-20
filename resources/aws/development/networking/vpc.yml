@@ -12,7 +12,7 @@ spec:
     tags:
     - key: Environment
       value: development
-    - key: Owner
+    - key: Team
       value: SRE
     - key: Name
       value: development
